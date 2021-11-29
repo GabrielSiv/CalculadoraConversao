@@ -1,0 +1,106 @@
+<!--Aluno: Gabriel Silvino Farias Marques
+Matrícula: 1813332068
+Matéria: Ambientes e Internet -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de moedas</title>
+    <link href="./css/css.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a name="inicio" href="#inicio">Início</a>
+            <a name="sobre" href="#informacoes">Sobre</a>
+            <a name="contato" href="#contato">Contato</a>
+        </nav>
+    </header>
+    <section>
+    <main id="inicio">
+        <form id="0" moeda="USD-BRL">
+            <p id="p"> BR para USD </p>
+            <div id="00"></div>
+            <input type="number" name="valor" placeholder="Insira o valor...">
+            <button>Calcular</button>
+        </form>
+        <form id="1" moeda="EUR-BRL">
+            <p> BRL para EUR </p>
+            <div id="11"></div>
+            <input type="number" name="valor" placeholder="Insira o valor...">
+            <button>Calcular</button>
+        </form>
+        <form id="2" moeda="GBP-BRL">
+            <p> BRL para Libra </p>
+            <div id="22"></div>
+            <input type="number" name="valor" placeholder="Insira o valor...">
+            <button>Calcular</button>
+        </form>
+        <form id="3" moeda="ARS-BRL">
+            <p> BR para Peso </p>
+            <div id="33"></div>
+            <input type="number" name="valor" placeholder="Insira o valor...">
+            <button>Calcular</button>
+        </form>
+        <form id="4" moeda="LTC-BRL">
+            <p> BR para LTC </p>
+            <div id="44"></div>
+            <input type="number" name="valor" placeholder="Insira o valor...">
+            <button>Calcular</button>
+        </form>
+        <form id="5" moeda="BTC-BRL">
+            <p> BR para BTC </p>
+            <div id="55"></div>
+            <input type="number" name="valor" placeholder="Insira o valor...">
+            <button>Calcular</button>
+        </form>
+    </main>
+</section>
+<section>
+    <article>
+    <div id="informacoes">
+        
+        <p><span> Projeto prático desenvolvido por <a href="https://www.linkedin.com/in/gabriel-silvino-1aa497164/" target="_blank">Gabriel Silvino Farias Marques</a>, graduando em Ciência da Computação em 
+            Universidade Estadual da Zona Oeste - UEZO, com o objetivo único e exclusivo de aprimorar seus conhecimentos
+            de frontend.</span></p>
+        <p><span>Aplicação utiliza HTML5, CSS3 e JS, além de fazer uso do <a href="http://browserify.org" target="_blank">Browserify</a> 
+            para utilizar conseguir utilizar a lib "https" do nodeJS, removendo, assim, a necessidade de um 
+            backend. Vale ressaltar também a ultilização da <a href="https://docs.awesomeapi.com.br/api-de-moedas" target="_blank">API de conversão de moedas</a> da awesomeapi.</span></p>
+    </div>
+</article>
+</section>
+    
+    
+    <footer>
+        <span>
+        <div class="footer_contato" id="contato">
+            <h3>Contato</h3>
+            <ul>
+                <li>- Gabriel.siv720@gmail.com</li>
+                <li>- Campo Grande - RJ</li>
+            </ul>
+        </div>
+        <div class="footer_redes">
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li><a href="http://facebook.com" target="_blank"><img src="images/facebook.svg"
+                            alt="Facebook"></a></li>
+                <li><a href="http://instagram.com" target="_blank"><img src="images/instagram.svg"
+                            alt="Instagram"></a></li>
+                <li><a href="http://twitter.com" target="_blank"><img src="images/twitter.svg"
+                            alt="Twitter"></a></li>
+            </ul>
+        </div>
+    </span>
+    </footer>
+    <script src="js/main.js">
+
+    </script>
+</body>
+
+</html>
